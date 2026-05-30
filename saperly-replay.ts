@@ -618,5 +618,6 @@ function formatAge(iso: string): string {
 
 main().catch((err) => {
   console.error(fail(err?.message ?? String(err)));
+  console.log("finally end here!")
   process.exit(1);
 });
